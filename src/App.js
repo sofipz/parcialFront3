@@ -22,14 +22,7 @@ class App extends React.Component  {
     this.handleClickOptions = this.handleClickOptions.bind(this);
   }
 
-  componentDidUpdate(){
-    console.log("")
-  }
-
   handleClickOptions(e){
-      //if(this.state.contador >= 7){
-        //alert("asdfghjk")
-      //}else{
       e === "a"
       ? this.setState({
         opcionElegida : parseInt(this.state.opcionElegida) + 1 + "a",

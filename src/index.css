@@ -3,7 +3,7 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  background-color: black;
+  background-color: rgb(119, 31, 72);
 }
 
 .contenedorPrincipal{
@@ -21,7 +21,7 @@ section{
 }
 
 header{
-  width: 90%;
+  width: 95%;
   display: flex;
   justify-content: center;
 }
@@ -39,14 +39,14 @@ main{
   font-size: large;
   text-align: center;
   padding: 2.5%;
-  width: 90%;
+  width: 95%;
   height: 40%;
 }
 
 footer{
   margin: 2%;
   font-size: medium;
-  width: 90%;
+  width: 95%;
   height: 45%;
   text-align: center;
 }
@@ -60,7 +60,7 @@ li{
 
 
 .divBotones{
-  margin: 5% 0%;
+  margin: 2% 0%;
 }
 .botones {
   margin: 1%;
@@ -94,7 +94,7 @@ li{
 
 img{
   margin: 3%;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
